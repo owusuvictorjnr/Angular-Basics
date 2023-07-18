@@ -7,7 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string;
+  name: string;
+  age: number;
   constructor() {
     this.title = 'welcome';
+    this.name = 'Vitech Solutions';
+    (this.age = 10), 'years old';
   }
 }
